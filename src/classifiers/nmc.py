@@ -37,6 +37,7 @@ class NMC(object):
 
 
 
+
     def fit(self, xtr, ytr):
         classes = np.unique(ytr)  # todas las clases existentes
         centroids = []
